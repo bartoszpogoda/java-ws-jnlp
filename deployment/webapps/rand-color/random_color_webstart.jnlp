@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" href="random_color_webstart.jnlp">
+    <information>
+        <title>JavaWS Random color picker</title>
+        <vendor>BPOGODA</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+" href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="random-color.jar" main="true" />
+    </resources>
+    <application-desc name="JavaWS Random color picker" main-class="com.github.bartoszpogoda.academic.jnlp.app.App"></application-desc>
+    <update check="background" />
+
+    <security>
+        <all-permissions/>
+    </security> 
+</jnlp>
